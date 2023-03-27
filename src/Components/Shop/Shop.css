@@ -8,3 +8,34 @@
     grid-template-columns: repeat(3,1fr);
     gap: 35px;
 }
+
+@media only screen and (max-width: 500px) {
+    .shop_container{
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
+    .Product_container {
+       display: grid;
+       grid-template-columns: repeat(3,1fr) ;
+    }
+    .Cart_container{
+        position: fixed;
+        right: 0;
+        margin-right: 20px;
+    }
+  }
+@media only screen and (max-width: 900px) {
+    .shop_container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .Product_container {
+       display: grid;
+       grid-template-columns: 1fr 1fr ;
+    }
+    .Cart_container{
+        position: fixed;
+        right: 0;
+        margin-right: 20px;
+    }
+  }

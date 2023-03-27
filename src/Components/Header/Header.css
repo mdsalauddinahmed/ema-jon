@@ -6,6 +6,7 @@
     align-items: center;
     padding-left: 100px;
     padding-right: 90px;
+    /* width: 100%; */
 }
 nav.header a{
     text-decoration: none;
